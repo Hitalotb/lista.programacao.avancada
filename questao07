@@ -1,0 +1,4 @@
+p = mat + 1; // VÁLIDO (p recebe o endereço de mat[1])
+p = mat++; // INVÁLIDO (mat é vetor, não encrementa-se em vetores)
+p = ++mat; // INVÁLIDO (mat é vetor, não encrementa-se antes ou depois em vetores)
+x = (*mat)++; // VÁLIDO (guarda-se o valor de mat[0] e depois incrementa-se 1 à esse valor, atribuindo-o em x)
