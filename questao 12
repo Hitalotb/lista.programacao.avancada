@@ -1,5 +1,5 @@
 
-///O ponteiro é uma forma que se usa para acessar uma função por meio de um ponteiro que aponta para onde a função esta´ na memória.
+///O ponteiro é uma variável que armazena o endereço de outra variável, uma forma que se usa para acessar uma função por meio de um ponteiro que aponta para onde a função está na memória, por referência.
 
 
 
