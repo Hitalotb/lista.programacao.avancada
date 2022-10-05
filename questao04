@@ -4,9 +4,9 @@
   	p1 = &valor;            	// Armazena o endereço da variável 'valor' no ponteiro 'p1'('p1' aponta para 'valor').
  	*p1 = 20; 	                // Armazena o valor 20 dentro do espaço de memória endereçado por 'p1', mesmo espaço de memória alocada para a variável 'valor'.
 			                // Portanto, o resultado armazenado na variável 'valor' foi alterado.
- 	printf("%d \n", valor); 	//Imprime o valor da variável 'valor'. 
+ 	printf("%d \n", valor); 	//Imprime o valor da variável 'valor'.
 
-	// Resultado: 20(ESPERADO)
+	// Resultado: 20
 
 
 
@@ -17,7 +17,7 @@
 			               // Logo, o resultado armazenado na variável 'temp' foi alterado.
   	printf("%.1f \n", temp);       //Imprime o valor da variável 'temp'.
 
-	// Resultado: 29.0(ESPERADO)
+	// Resultado: 29.0
 
 
 
@@ -27,7 +27,7 @@
 
  	printf("%c \n", aux);	       // Imrpime o valor guardado em 'aux'.
 
-	//Resultado: ^
+	//Resultado: P
 
 
 
@@ -36,28 +36,29 @@
  	aux = *p3;		// Variável aux recebe o conteúdo do ponteiro 'p3'.
  	printf("%c \n", aux);	// Imrpime o valor guardado em 'aux'.
 
-	//Resultado: Parecia o simbolo da juventos ao contrário
+	//Resultado: e
 	
 
  	/* (e) */
  	p3 = nome;		// Armazena o endereço do vetor 'nome' no ponteiro p3. Como não foi especificado
 				// a posição do vetor, o ponteiro 'p3' irá armazenar a posição '0' do vetor 'nome'.
  	printf("%c \n", *p3);	// Imprime o valor apontado por 'p3'.
-	//Resultado: k
+	
+	//Resultado: P
 	
 
  	/* (f) */
  	p3 = p3 + 4;		// O endereço do ponteiro 'p3' irá se deslocar 4 bytes para frente, ja que o ponteiro 'p3'
 				// é do tipo char(1 byte).
  	printf("%c \n", *p3);	//Imprime o valor apontado por 'p3'.
-	//Resultado: f
+	//Resultado: e
 
 
  	/* (g) */
  	p3--;			// O endereço do ponteiro 'p3' irá de deslocar em 1 byte para traz, já que o ponteiro 'p3'
-				// é do tipo char(1 bype).	
+				// é do tipo char(1 byte).	
  	printf("%c \n", *p3);	//Imprime o valor apontado por 'p3'.
-	//Resultado: U
+	//Resultado: t
 
 
  	/* (h) */
